@@ -3,7 +3,7 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 
 module.exports = {
-    mode: 'development',
+    mode: 'development',  
     entry:  [
       'react-hot-loader/patch',
       'webpack-dev-server/client?http://localhost:8080',
